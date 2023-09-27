@@ -4,10 +4,11 @@ namespace Unirest\Response\Test;
 
 use Unirest\Request as Request;
 use Unirest\Response as Response;
+use \PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 
 require __DIR__ . '/../../src/Unirest.php';
 
-class UnirestResponseTest extends \PHPUnit_Framework_TestCase
+class UnirestResponseTest extends PHPUnit_Framework_TestCase
 {
     public function testJSONAssociativeArrays()
     {

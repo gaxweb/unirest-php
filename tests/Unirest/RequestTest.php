@@ -3,10 +3,11 @@
 namespace Unirest\Request\Test;
 
 use Unirest\Request as Request;
+use \PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 
 require __DIR__ . '/../../src/Unirest.php';
 
-class UnirestRequestTest extends \PHPUnit_Framework_TestCase
+class UnirestRequestTest extends PHPUnit_Framework_TestCase
 {
     // Generic
     public function testCurlOpts()

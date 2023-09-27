@@ -4,10 +4,11 @@ namespace Unirest\Request\Body\Test;
 
 use Unirest\Request as Request;
 use Unirest\Request\Body as Body;
+use \PHPUnit\Framework\TestCase as PHPUnit_Framework_TestCase;
 
 require_once __DIR__ . '/../../src/Unirest.php';
 
-class BodyTest extends \PHPUnit_Framework_TestCase
+class BodyTest extends PHPUnit_Framework_TestCase
 {
     public function testCURLFile()
     {
