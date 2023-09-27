@@ -547,7 +547,7 @@ class Request
 
         $scheme = $url_parsed['scheme'] . '://';
         $host   = $url_parsed['host'];
-        $port   = (isset($url_parsed['port']) ? $url_parsed['port'] : null);
+        $port   = (isset($url_parsed['port']) ? (string)$url_parsed['port'] : null);
         $path   = (isset($url_parsed['path']) ? $url_parsed['path'] : null);
         $query  = (isset($url_parsed['query']) ? $url_parsed['query'] : null);
 
